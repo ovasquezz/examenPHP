@@ -22,3 +22,5 @@ Además, en la tabla de update_products.php he añadido el selector de archivos 
 
 
 He añadido un archivo para configurar la base de datos.
+
+github: https://github.com/ovasquezz/examenPHP
