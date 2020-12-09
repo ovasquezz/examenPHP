@@ -15,7 +15,9 @@ Si la imagen cumple con todos los requisitos se guarda en una carpeta llamada /u
 
 Para recuperarla selecciona la imagen correspondiente al objeto seleccionado y busca su ruta en la carpeta /uploads, si la encuentra la muestra, si no aparece un error en pantalla diciendo que no se encuentra la imagen. 
 
-6-
+6- Para actualizar una imagen he utilizado el mismo principio que para crearla, he añadido la propiedad imagen al objeto product en el archivo update_product.php y cuando intente actualizar el producto llamando a la funcion update(), tambien llamara a la funcion updatePhoto(), que es igual que uploadPhoto() que utilizamos para crear un producto. La diferencia que tiene updatePhoto() es que no importa si ya hay un producto con la misma imagen ya que de ser asi no nos dejaria actualizarla.
+
+Además, en la tabla de update_products.php he añadido el selector de archivos para que pueda elegir la foto para actualizar.
 
 
 
