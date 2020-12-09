@@ -35,7 +35,7 @@ echo "<table class='table table-hover table-responsive table-bordered'>";
 
 echo "<tr>";
 echo "<td>Name</td>";
-echo "<td>{$product->name}$</td>";
+echo "<td>\${$product->name}</td>";
 echo "</tr>";
 
 echo "<tr>";
