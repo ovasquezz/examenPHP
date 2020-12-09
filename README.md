@@ -1,6 +1,6 @@
 # examenPHP
  
-(Para empezar tenego un error que no he corregido aún en la pagina de read_one.php pero aunque no se muestre )
+(Para empezar tenego un error que no he corregido aún en la pagina de read_one.php pero aunque no se muestre los cambios que he hecho deberian ser correctos)
 
 4- Para poner el simbolo dolar al lado del precio he editado los arachivos read_template.php y read_one.php que son los encargados de escribir los datos en la tabla, cuando va a printar el precio, he añadido \$ antes de la variable del precio para ponerlo como caracter y lo imprima en todas las filas
 
